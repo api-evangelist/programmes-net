@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-programmes-net is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://programmes.net/
+programmes.net is a free developer tools and reference site offering 96 in‑browser tools, over 2,158 answer‑first reference pages, a terminal interface, a public REST API and an MCP server for AI agents. It provides utilities for JSON, JWT, base64, hashing, UUID, cron, regex, and many other tasks, all free and without requiring sign‑up or API keys. The site also offers markdown versions of reference pages, a sitemap, llms.txt for language models, and an OpenAPI 3.1 specification at /api/openapi.json.
+
+**Areas:** Company · Developer Tools · API · OpenAPI · MCP
+
+## programmes-net on APIs.io
+
+Everything profiled for programmes-net is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/programmes-net/](https://apis.io/providers/programmes-net/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [programmes-net Converters API](https://apis.io/apis/programmes-net/programmes-net-converters-api/) — The Converters API from programmes-net — 29 operation(s) for converters.
+- [programmes-net Cryptography & Hashing API](https://apis.io/apis/programmes-net/programmes-net-cryptography-hashing-api/) — The Cryptography & Hashing API from programmes-net — 12 operation(s) for cryptography & hashing.
+- [programmes-net Encoders & Decoders API](https://apis.io/apis/programmes-net/programmes-net-encoders-decoders-api/) — The Encoders & Decoders API from programmes-net — 13 operation(s) for encoders & decoders.
+- [programmes-net Formatters & Validators API](https://apis.io/apis/programmes-net/programmes-net-formatters-validators-api/) — The Formatters & Validators API from programmes-net — 8 operation(s) for formatters & validators.
+- [programmes-net Text Tools API](https://apis.io/apis/programmes-net/programmes-net-text-tools-api/) — The Text Tools API from programmes-net — 11 operation(s) for text tools.
+- [programmes-net Web Tools API](https://apis.io/apis/programmes-net/programmes-net-web-tools-api/) — The Web Tools API from programmes-net — 14 operation(s) for web tools.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Programmes Net Agentic Access](https://apis.io/agentic-access/programmes-net/programmes-net-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [lorem.generate](https://apis.io/schemas/programmes-net/programmes-net-lorem-generate/)
+- [password.generate](https://apis.io/schemas/programmes-net/programmes-net-password-generate/)
+- [robots-txt.build](https://apis.io/schemas/programmes-net/programmes-net-robots-txt-build/)
+- [text-cleanup.clean](https://apis.io/schemas/programmes-net/programmes-net-text-cleanup-clean/)
+- [utm.batch](https://apis.io/schemas/programmes-net/programmes-net-utm-batch/)
+- [utm.build](https://apis.io/schemas/programmes-net/programmes-net-utm-build/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Programmes Net Context](https://apis.io/jsonld/programmes-net/programmes-net-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [programmes-net API Rules](https://apis.io/rules/programmes-net/programmes-net-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Programmes Net Authentication](https://apis.io/security/programmes-net/programmes-net-authentication/)
+- [Programmes Net Domain Security](https://apis.io/security/programmes-net/programmes-net-domain-security/)
+- [Programmes Net Vulnerability Disclosure](https://apis.io/security/programmes-net/programmes-net-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Programmes Net Scopes](https://apis.io/scopes/programmes-net/programmes-net-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://programmes.net/)
+- [Documentation](https://programmes.net/resources/guides)
+- [Getting started](https://programmes.net/resources/guides/getting-started-with-git)
+- [API reference](https://programmes.net/api/openapi.json)
+- [Support](https://programmes.net/about)
+- [Privacy policy](https://programmes.net/privacy)
+
+## API Evangelist rating
+
+**Kin Score 44.2** — developing · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 70.0 |
+| Contract quality | 55.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 39.8 |
+| Access clarity | 10.5 |
+
+**Agent readiness 40.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/programmes-net/](https://apis.io/providers/programmes-net/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for programmes-net: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/programmes-net/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
